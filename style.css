@@ -1,0 +1,80 @@
+ body{
+  background-position: center;
+  background-repeat: no-repeat; 
+ }
+
+ .one{
+     background-image: url( "img/austin.jpg");
+
+ }
+.two{
+    background-image: url( "img/charles.jpg");
+}
+.three{
+    background-image: url( "img/just.jpg");
+}
+
+.pic{
+    background-position: ;
+    background-attachment: fixed;
+
+}
+ .menu{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1, 0;
+    color: white;
+    padding-top: 90px;
+    float: left;
+ }
+
+ h1{
+     text-align: center;
+     font-family: 'Kosugi', sans-serif;
+     font-size: 70px;
+     color: gold;
+     font-weight: 40px;
+
+ }
+
+ nav {
+   float: left;
+   color: gold;
+ }
+  ul{
+   
+    
+  }
+
+  li {
+      float: left;
+      display: inline;
+      padding-right: 50em; 
+  }
+
+
+  p {
+    padding-top: 490px;
+    text-align: center;
+    color: gold;
+}
+
+
+a:visited{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color:gray;
+    font-size: 90px;
+}
+
+@media screen and (max-width: 600xp){
+    .menu{
+        flex-wrap: wrap;
+    }
+   .menu{
+       flex-basis: 50%;
+   }
+
+}
